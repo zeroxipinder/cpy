@@ -1,10 +1,9 @@
-
 <?php
 // Pengaturan
-$templateFile ='https://raw.githubusercontent.com/zeroxipinder/product-old/refs/heads/main/sc.html'; // tanpa random lp jika LP cuma satu
+$templateFile ='https://raw.githubusercontent.com/zeroxipinder/cpy/refs/heads/main/lp.html'; // tanpa random lp jika LP cuma satu
 $sitemapFile ='mape.xml'; // Nama file sitemap
 $robotsTxtFile ='robots.txt'; // Nama file robots.txt
-$keywordFile ='https://raw.githubusercontent.com/zeroxipinder/product-old/refs/heads/main/z.txt'; // Nama file keyword
+$keywordFile ='https://raw.githubusercontent.com/zeroxipinder/cpy/refs/heads/main/kw.txt'; // Nama file keyword
 $rootimg = "https://patangpuluh.xyz/img/";
 
 $generateSitemap = true; // Opsi untuk menghasilkan sitemap
