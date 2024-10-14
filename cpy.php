@@ -109,7 +109,7 @@ function generateHTMLFile($keyword, $templateFile, $generatePerFolder, $generate
 
     // Menggabungkan dengan domain root untuk menghasilkan URL lengkap
     $currentURL = $currentDomain . $relativeDir;
-    $amp = 'https://patangpuluh.xyz/ampe/?daftar=' . $keyword;
+    $amp = 'https://patangpuluh.xyz/?daftar=' . $keyword;
     // Ganti #domain dengan direktori saat ini dan nama folder yang dibuat
     $templateContent = str_replace('#domain', $currentURL  . $outputFolder . '/', $templateContent); //tak ganti nggo bahan lp lain domen
     $templateContent = str_replace('#amp', $amp, $templateContent);
