@@ -1,6 +1,6 @@
 <?php
-$raww = "https://raw.githubusercontent.com/zeroxipinder/amp/main/zr.txt"; // Daftar kata kunci
-$sitemapUrl = "https://lambarese.desa.luwutimurkab.go.id/sitemap.xml"; // URL Sitemap
+$raww = "https://raw.githubusercontent.com/zeroxipinder/cpy/refs/heads/main/kw.txt"; // Daftar kata kunci
+$sitemapUrl = "https://dishub.bone.go.id/map.xml"; // URL Sitemap
 $parameterName = "daftar"; 
 $utama = ""; // Variabel untuk menyimpan URL utama
 
